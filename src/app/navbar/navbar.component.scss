@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+body {
+    background-color: #BBDEFB;
+    
+    
+}
+
+.bg-black {
+    background-color: #000
+}
+
+.navbar-brand {
+    padding: 11px 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    color: yellow;
+}
+
+.active {
+    background-color: blue
+}
+
+.navbar-nav {
+    width: 100%
+}
+
+.nav-link {
+    color: #fff !important
+}
+
+.nav-item {
+    padding: 6px 12px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.nav-item:hover {
+    background-color: black
+}
+
+.right {
+    margin-left: auto
+}
+
+.navbar-collapse.collapse.in {
+    display: block !important
+}
+
+@media (max-width: 992px) {
+    .right {
+        margin-left: 0
+    }
+
+    .nav-item {
+        width: 100%;
+        text-align: left
+    }
+    
+}
+.cart1 img{
+    width: 10%;
+    
+}
+.cart-icon{
+    position: relative;
+    cursor: pointer;
+}
+
+.cart-icon i{
+    font-size: 35px;
+    color: wheat;
+    margin-top: 7px;
+}
+.cart-value{
+    position: absolute;
+    top:-5px;
+    right: 68px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 4px 10px;
+    font-weight: 800px;
+    font-size: 16px;
+
+}
+
+*.icon-blue {color: #cc0000}
+*.icon-grey {color: grey}
+i {   
+    width:100px;
+    text-align:center;
+    vertical-align:middle;
+    position: relative;
+}
+.badge {
+    font-size: 1.3em;
+    margin-left: -40px;
+    padding: 9px;
+}
+.badge:after{
+    content:"";
+    position: absolute;
+    //background: rgba(0,0,255,1);
+    height:2rem;
+    top:1rem;
+    right:1.5rem;
+    width:2rem;
+    text-align: center;
+    line-height: 2rem;;
+    font-size: 1rem;
+    border-radius: 50%;
+    color:white;
+    //border:1px solid blue;
+}
+
+.nav-login{
+    padding-left: 13px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
